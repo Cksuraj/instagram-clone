@@ -1,0 +1,19 @@
+.posthead{
+     display: flex;
+     justify-content: flex-start;
+     gap: 10px;
+     height: 50px;
+     width: 100%;
+     align-items: center;
+}
+
+.postbox{
+    width: 35vw;
+    margin-top: 100px;
+}
+
+.postmain{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

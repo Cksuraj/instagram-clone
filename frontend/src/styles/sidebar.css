@@ -1,0 +1,14 @@
+.sidebar{
+ margin: 0px;
+padding: 0pc;
+}
+
+.sidebar-list ul{
+list-style: none;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+height: 80vh;
+margin: 0px;
+font-size: 20px;
+}
