@@ -4,23 +4,23 @@ let myinfo = {
   post: 45,
   followers: 265,
   following: 453,
-  name: "Sabo royal",
-  Bio: "I am Content Creater",
+  name: " Sabo royal",
+  bio: "I am Content Creater",
   savedstatus:[
     {
       statusName: "Song", 
       status:[
-        "https://imgd.aeplcdn.com/370x208/n/cw/ec/43482/sp-125-right-front-three-quarter-2.jpeg?isig=0&q=80",
-        "https://imgd.aeplcdn.com/370x208/n/cw/ec/43482/sp-125-right-front-three-quarter-2.jpeg?isig=0&q=80",
-        "https://imgd.aeplcdn.com/370x208/n/cw/ec/43482/sp-125-right-front-three-quarter-2.jpeg?isig=0&q=80",
+        "https://flairglass.in/cdn/shop/files/BeautifulWallPaintingforHomeShreeLordGaneshaColorfulOilPaintingmain.jpg?v=1694592726&width=480",
+        "https://flairglass.in/cdn/shop/files/BeautifulWallPaintingforHomeShreeLordGaneshaColorfulOilPaintingmain.jpg?v=1694592726&width=480",
+        "https://flairglass.in/cdn/shop/files/BeautifulWallPaintingforHomeShreeLordGaneshaColorfulOilPaintingmain.jpg?v=1694592726&width=480",
       ]
     },
     {
       statusName: "Video",
       status:[
-        "https://stat.overdrive.in/wp-content/odgallery/2022/05/62582_2022_KTM_RC-390_1_468x263.jpg",
-        "https://imgd.aeplcdn.com/370x208/n/cw/ec/43482/sp-125-right-front-three-quarter-2.jpeg?isig=0&q=80",
-        "https://stat.overdrive.in/wp-content/odgallery/2022/05/62582_2022_KTM_RC-390_1_468x263.jpg",
+        "https://feelingnifty.com/wp-content/uploads/2023/09/How-to-paint-a-lily-painting-easy-scaled-735x980.jpg",
+        "https://feelingnifty.com/wp-content/uploads/2023/09/How-to-paint-a-lily-painting-easy-scaled-735x980.jpg",
+        "https://feelingnifty.com/wp-content/uploads/2023/09/How-to-paint-a-lily-painting-easy-scaled-735x980.jpg",
       ]
     },
     {
@@ -30,7 +30,7 @@ let myinfo = {
         "https://images.unsplash.com/photo-1521575107034-e0fa0b594529?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9zdHxlbnwwfHwwfHx8MA%3D%3D",
         "https://images.unsplash.com/photo-1521575107034-e0fa0b594529?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9zdHxlbnwwfHwwfHx8MA%3D%3D",
       ]
-    },
+    }
   ],
   posts:[
     {
@@ -56,15 +56,23 @@ let myinfo = {
     },
     {
       postimg: [
-        "https://www.bibalex.org/SCIplanet/Attachments/Article/MediumImage/wmCo7XflZf_20210412112248843.jpghttps://www.bibalex.org/SCIplanet/Attachments/Article/MediumImage/wmCo7XflZf_20210412112248843.jpg",
-        "https://www.bibalex.org/SCIplanet/Attachments/Article/MediumImage/wmCo7XflZf_20210412112248843.jpghttps://www.bibalex.org/SCIplanet/Attachments/Article/MediumImage/wmCo7XflZf_20210412112248843.jpg",
+        "https://www.hindustantimes.com/ht-img/img/2023/08/25/1600x900/paintings_home_decor_1692968356068_1692968370370.PNG",
+        "https://www.hindustantimes.com/ht-img/img/2023/08/25/1600x900/paintings_home_decor_1692968356068_1692968370370.PNG",
+        "https://www.hindustantimes.com/ht-img/img/2023/08/25/1600x900/paintings_home_decor_1692968356068_1692968370370.PNG",
       ]
     },
     {
       postimg: [
-        "https://imgd.aeplcdn.com/370x208/n/cw/ec/43482/sp-125-right-front-three-quarter-2.jpeg?isig=0&q=80",
-        "https://w0.peakpx.com/wallpaper/195/580/HD-wallpaper-nature-night-thumbnail.jpg",
-        "https://w0.peakpx.com/wallpaper/195/580/HD-wallpaper-nature-night-thumbnail.jpg",
+        "https://m.media-amazon.com/images/I/81FFpRhqUVL._AC_UF894,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81FFpRhqUVL._AC_UF894,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81FFpRhqUVL._AC_UF894,1000_QL80_.jpg",
+      ]
+    },
+    {
+      postimg: [
+        "https://tiimg.tistatic.com/fp/2/008/361/classical-scenery-water-miscible-oil-paint-with-frame-canvas-painting--445.jpg",
+        "https://tiimg.tistatic.com/fp/2/008/361/classical-scenery-water-miscible-oil-paint-with-frame-canvas-painting--445.jpg",
+        "https://tiimg.tistatic.com/fp/2/008/361/classical-scenery-water-miscible-oil-paint-with-frame-canvas-painting--445.jpg",
       ]
     },
   ],

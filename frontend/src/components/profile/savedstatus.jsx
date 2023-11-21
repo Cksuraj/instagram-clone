@@ -7,10 +7,10 @@ const Savedstatus = ({ savedstatus }) => {
   }
 
   return (
-    <div style={{ display: 'flex', marginTop: '2vh', gap: '10vh', marginLeft: '10vh' }}>
+    <div style={{ display: 'flex', marginTop: '2vh', gap: '10vh', marginLeft: '10vh'}}>
       {savedstatus.map((status) => {
-      return <div style={{ display: 'flex', flexDirection: 'column' }} >
-          <img src={`${status.status[0]}`} alt="" style={{ width: '10vh', height: '10vh' }} />
+      return <div style={{ display: 'flex', flexDirection: 'column', justifyContent:'center', alignItems:'center'  }} >
+          <img src={`${status.status[0]}`} alt="" style={{ width: '10vh', height: '10vh', borderRadius:'50%', border:'5px solid green'}} />
           <span>{status.statusName}</span>
           
         </div>

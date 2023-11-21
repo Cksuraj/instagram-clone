@@ -10,10 +10,10 @@ const Mypost = ({post}) => {
             <span> Tagged </span>
         </div>
 
-      <div style={{width: "60vh",display: "grid",gridTemplateColumns: "auto auto auto",columnGap: "10px",rowGap: "1vh"}}>
+      <div style={{width: "auto",display: "grid",gridTemplateColumns: "auto auto auto",columnGap: "10px",rowGap: "1vh"}}>
 
         {post.map((ele) => {
-          return <img style={{ width: "300px", height: "300px", objectFit: "cover" }} 
+          return <img style={{ width: "250px", height: "30vh", objectFit: "cover", borderRadius:'4px' }} 
           src= {`${ele.postimg[0]}`}  alt=" "/> 
             })}
       </div>

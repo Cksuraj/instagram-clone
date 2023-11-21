@@ -16,31 +16,31 @@ const Header = ({ myinfo }) => {
           alt=""
         />
 
-        <div>
+        <div style={{display:'flex',justifyContent:'flex-start',flexDirection:'column'}}>
           <div style={{ display: "flex", gap: "20px", alignItems: "center" }}>
             <span style={{ fontSize: "30px" }}>{myinfo.username} </span>
-            <span className="buttons_profile"> Edit Profile</span>
-            <span className="buttons_profile"> View Archive </span>
+            <span className="buttons_profile">Edit Profile</span>
+            <span className="buttons_profile">View Archive </span>
             <span>
               <SettingsIcon />
             </span>
           </div>
 
           <div style={{ display: "flex", justifyContent: "space-around", marginTop:'20px' }}> 
-            <span> {myinfo.post} </span>
-            <span>{myinfo.followers} </span>
-            <span> {myinfo.following} </span>
+            <span> {myinfo.post} Post </span>
+            <span>{myinfo.followers} Followers </span>
+            <span> {myinfo.following} Following </span>
           </div>
 
-          <div style={{ marginTop: "20px", marginLeft: "15px" }}>
+          <div style={{ marginTop: "20px" }}>
             {myinfo.name}
           </div>
-          <p style={{ marginLeft: "20px" }}>
+          <p >
             {myinfo.bio}
           </p>
         </div>
       </div>
-      <Savedstatus />
+      <Savedstatus savedstatus={myinfo.savedstatus}/>
     </div>
   );
 };
