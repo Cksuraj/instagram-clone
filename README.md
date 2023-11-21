@@ -12,13 +12,13 @@ This project is a React.js front-end implementation of an Instagram clone. It ai
 - [Contributing](#contributing)
 
 ## Screenshot
-![Alt text](Registretion.png)
+![Alt text](Registretion-1.png)
 
-![Alt text](inst-login.png)
+![Alt text](inst-login-1.png)
 
-![Alt text](myprofile.png)
+![Alt text](myprofile-1.png)
 
-![Alt text](insta-homepage.png)
+![Alt text](homepage.png)
 
 ## Features
 

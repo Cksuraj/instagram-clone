@@ -7,7 +7,7 @@ const Post = () => {
     <div className="postbox">
       {
         postobject.map(postdata => {
-          return <div style={{border:'2px solid grey',margin:'10px', padding:'0px 15px'}}>
+          return <div style={{border:'2px solid grey',padding:'0px 15px',margin:'10px',borderRadius:'4px'}}>
             <div className="posthead">
               <img src={`${postdata.profilepic}`} width="30px" height="40px" style={{ borderRadius: '50%' }} alt="" />
               <span>{postdata.username} </span>
